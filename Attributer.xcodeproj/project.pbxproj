@@ -14,7 +14,7 @@
 		05F1520E19C75E2D00738193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1520D19C75E2D00738193 /* main.m */; };
 		05F1521219C75E2D00738193 /* AttrubuterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1521119C75E2D00738193 /* AttrubuterAppDelegate.m */; };
 		05F1521519C75E2D00738193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F1521319C75E2D00738193 /* Main.storyboard */; };
-		05F1521819C75E2D00738193 /* AttrubuterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1521719C75E2D00738193 /* AttrubuterViewController.m */; };
+		05F1521819C75E2D00738193 /* AttributerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1521719C75E2D00738193 /* AttributerViewController.m */; };
 		05F1521A19C75E2D00738193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F1521919C75E2D00738193 /* Images.xcassets */; };
 		05F1522119C75E2D00738193 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F1522019C75E2D00738193 /* XCTest.framework */; };
 		05F1522219C75E2D00738193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F1520119C75E2D00738193 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		05F1521019C75E2D00738193 /* AttrubuterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttrubuterAppDelegate.h; sourceTree = "<group>"; };
 		05F1521119C75E2D00738193 /* AttrubuterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttrubuterAppDelegate.m; sourceTree = "<group>"; };
 		05F1521419C75E2D00738193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05F1521619C75E2D00738193 /* AttrubuterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttrubuterViewController.h; sourceTree = "<group>"; };
-		05F1521719C75E2D00738193 /* AttrubuterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttrubuterViewController.m; sourceTree = "<group>"; };
+		05F1521619C75E2D00738193 /* AttributerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributerViewController.h; sourceTree = "<group>"; };
+		05F1521719C75E2D00738193 /* AttributerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributerViewController.m; sourceTree = "<group>"; };
 		05F1521919C75E2D00738193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05F1521F19C75E2D00738193 /* AttributerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F1522019C75E2D00738193 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +112,9 @@
 		05F1520719C75E2D00738193 /* Attributer */ = {
 			isa = PBXGroup;
 			children = (
-				05F1521019C75E2D00738193 /* AttrubuterAppDelegate.h */,
-				05F1521119C75E2D00738193 /* AttrubuterAppDelegate.m */,
 				05F1521319C75E2D00738193 /* Main.storyboard */,
-				05F1521619C75E2D00738193 /* AttrubuterViewController.h */,
-				05F1521719C75E2D00738193 /* AttrubuterViewController.m */,
+				05F1521619C75E2D00738193 /* AttributerViewController.h */,
+				05F1521719C75E2D00738193 /* AttributerViewController.m */,
 				05F1521919C75E2D00738193 /* Images.xcassets */,
 				05F1520819C75E2D00738193 /* Supporting Files */,
 			);
@@ -126,6 +124,8 @@
 		05F1520819C75E2D00738193 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05F1521019C75E2D00738193 /* AttrubuterAppDelegate.h */,
+				05F1521119C75E2D00738193 /* AttrubuterAppDelegate.m */,
 				05F1520919C75E2D00738193 /* Attributer-Info.plist */,
 				05F1520A19C75E2D00738193 /* InfoPlist.strings */,
 				05F1520D19C75E2D00738193 /* main.m */,
@@ -196,7 +196,7 @@
 		05F151F619C75E2D00738193 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Attrubuter;
+				CLASSPREFIX = Attributer;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sameer Totey";
 				TargetAttributes = {
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F1521819C75E2D00738193 /* AttrubuterViewController.m in Sources */,
+				05F1521819C75E2D00738193 /* AttributerViewController.m in Sources */,
 				05F1521219C75E2D00738193 /* AttrubuterAppDelegate.m in Sources */,
 				05F1520E19C75E2D00738193 /* main.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  AttrubuterViewController.h
+//  AttributerViewController.h
 //  Attributer
 //
 //  Created by Sameer Totey on 9/15/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AttrubuterViewController : UIViewController
+@interface AttributerViewController : UIViewController
 
 @end

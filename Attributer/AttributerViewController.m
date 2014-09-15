@@ -1,18 +1,18 @@
 //
-//  AttrubuterViewController.m
+//  AttributerViewController.m
 //  Attributer
 //
 //  Created by Sameer Totey on 9/15/14.
 //  Copyright (c) 2014 Sameer Totey. All rights reserved.
 //
 
-#import "AttrubuterViewController.h"
+#import "AttributerViewController.h"
 
-@interface AttrubuterViewController ()
+@interface AttributerViewController ()
 
 @end
 
-@implementation AttrubuterViewController
+@implementation AttributerViewController
 
 - (void)viewDidLoad
 {
