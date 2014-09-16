@@ -21,6 +21,7 @@
 		05F1522319C75E2D00738193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F1520519C75E2D00738193 /* UIKit.framework */; };
 		05F1522B19C75E2D00738193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05F1522919C75E2D00738193 /* InfoPlist.strings */; };
 		05F1522D19C75E2D00738193 /* AttributerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1522C19C75E2D00738193 /* AttributerTests.m */; };
+		05F1523819C7DD9400738193 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F1523719C7DD9400738193 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		05F1522819C75E2D00738193 /* AttributerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttributerTests-Info.plist"; sourceTree = "<group>"; };
 		05F1522A19C75E2D00738193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05F1522C19C75E2D00738193 /* AttributerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributerTests.m; sourceTree = "<group>"; };
+		05F1523619C7DD9400738193 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		05F1523719C7DD9400738193 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				05F1521319C75E2D00738193 /* Main.storyboard */,
+				05F1523619C7DD9400738193 /* TextStatsViewController.h */,
+				05F1523719C7DD9400738193 /* TextStatsViewController.m */,
 				05F1521619C75E2D00738193 /* AttributerViewController.h */,
 				05F1521719C75E2D00738193 /* AttributerViewController.m */,
 				05F1521919C75E2D00738193 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				05F1521819C75E2D00738193 /* AttributerViewController.m in Sources */,
 				05F1521219C75E2D00738193 /* AttrubuterAppDelegate.m in Sources */,
 				05F1520E19C75E2D00738193 /* main.m in Sources */,
+				05F1523819C7DD9400738193 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
